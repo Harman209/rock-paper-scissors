@@ -13,6 +13,7 @@ def result(computer, player):
         print('It is a tie!!')
     if (player == 'r' and computer == 's') and (player == 's' and computer == 'p') or (player == 'p' and computer == 'r'):
         print('You Won!!')
+    
     else:
         print('You Lost :(')
 
